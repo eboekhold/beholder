@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { IMonster } from './../interfaces/monster';
 import { Observable } from 'rxjs';
 
-const monsterServer = "https://monstermaker.herokuapp.com/";
+const monsterServer = "/api/";
 
 @Injectable({
   providedIn: 'root'

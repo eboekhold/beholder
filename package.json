@@ -1,7 +1,7 @@
 {
   "name": "beholder",
   "version": "0.0.1",
-  "author": "Raphaël Claasen",
+  "author": "Eva Boekhold",
   "homepage": "https://monstermaker.herokuapp.com",
   "scripts": {
     "ng": "ng",
