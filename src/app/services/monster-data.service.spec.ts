@@ -5,7 +5,7 @@ import { MonsterDataService } from './monster-data.service';
 
 import { IMonster } from './../interfaces/monster';
 
-const monsterServer = "https://monstermaker.herokuapp.com/"
+const monsterServer = "/api/"
 
 describe('MonsterDataService', () => {
   let httpController: HttpTestingController;
@@ -35,7 +35,7 @@ describe('MonsterDataService', () => {
       { id: 1, name: "Alpha" },
       { id: 2, name: "Beta" }
     ];
-    
+
     it('should load an array of monsters', () => {
       monsterDataService.loadMonsterIndex().subscribe(data => {
         expect(data.length).toBe(2);
